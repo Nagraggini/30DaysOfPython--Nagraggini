@@ -7,3 +7,16 @@ String
 A collection of one or more characters under a single or double quote. 
 If a string is more than one sentence then we use a triple quote.
 '''
+print('Let\'s learn!')
+
+username = input('Enter your name: ')
+print(username)
+
+age = int(input('What is your age? ')) #Marad a szám formátumban.
+print(age)
+
+#Pitagorasz-tétel
+a= int(input('a:'))
+b=int(input('b:'))
+print('c')
+print((a*2+b*2)**(0.5))
