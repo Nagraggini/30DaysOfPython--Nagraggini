@@ -20,3 +20,15 @@ a= int(input('a:'))
 b=int(input('b:'))
 print('c')
 print((a*2+b*2)**(0.5))
+
+#coin flip💖
+import random
+
+num = random.randint(0, 1)   # Generates a random number that's either 0 or 1
+result=0
+
+if num > 0.5:
+  result=result+1
+  print('Heads')
+else:
+  print('Tails')
