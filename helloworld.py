@@ -9,6 +9,10 @@ If a string is more than one sentence then we use a triple quote.
 '''
 print('Let\'s learn!')
 
+
+#Bekérjük a felhasználó nevét és életkorát
+#A bemenetet string formátumban tároljuk, de az életkor számként.
+print('Bekérjük a felhasználó nevét és életkorát.')
 username = input('Enter your name: ')
 print(username)
 
@@ -16,14 +20,16 @@ age = int(input('What is your age? ')) #Marad a szám formátumban.
 print(age)
 
 #Pitagorasz-tétel
+print('Pitagorasz-tétel. Bekérünk két számot, a és b, majd kiszámítjuk a c-t.')
 a= int(input('a:'))
 b=int(input('b:'))
-print('c')
+print('c:')
 print((a*2+b*2)**(0.5))
 
 #coin flip💖
 import random
 
+print('Coin flip!')
 num = random.randint(0, 1)   # Generates a random number that's either 0 or 1
 result=0
 
